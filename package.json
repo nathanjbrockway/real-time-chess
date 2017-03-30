@@ -1,0 +1,25 @@
+{
+  "name": "MSChess",
+  "version": "0.0.0",
+  "description": "Microsoft Chess Workshop (3-29-17)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanjbrockway/real-time-chess.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nathanjbrockway/real-time-chess/issues"
+  },
+  "dependencies": {
+    "chess.js": "~0.10.2",
+    "chessboard": "~0.1.3",
+    "express": "~4.15.2",
+    "socket.io": "~1.7.3"
+  }
+}
